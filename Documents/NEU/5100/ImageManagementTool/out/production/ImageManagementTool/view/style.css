@@ -6,6 +6,7 @@
 
 /*left section*/
 .left-section {
+    -fx-background-color: #eafbea;
     -fx-min-width: 400px;
     -fx-pref-width: 400px;
     -fx-max-width: 400px;
@@ -19,41 +20,43 @@
 }
 
 /* Buttons and Boxes in left section*/
-#uploadBtn{
+#uploadBtn, #convertBtn, #choiceBox{
+    -fx-pref-width: 700px;
+    -fx-pref-height: 70px;
     -fx-font-weight: 700;
     -fx-background-radius: 9,8,5,4,3;
     -fx-font-family: "Helvetica";
-    -fx-font-size: 17px;
+    -fx-font-size: 20px;
+}
+
+#uploadBtn {
+    -fx-background-color: #71a95a;
 }
 
 #convertBtn{
-     -fx-font-weight: 700;
-     -fx-background-radius: 9,8,5,4,3;
-     -fx-font-family: "Helvetica";
-     -fx-font-size: 17px;
+    -fx-background-color: #007944;
 }
 
 #choiceBox{
-     -fx-font-weight: 700;
-     -fx-background-radius: 9,8,5,4,3;
-     -fx-font-family: "Helvetica";
-     -fx-font-size: 15px;
+    -fx-background-color: #c9d99e;
 }
+
 
 #textWidth,
 #textHeight{
+    -fx-pref-width: 500px;
+    -fx-pref-height: 50px;
     -fx-background-color: #a9a9a9 , white , white;
     -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
 }
 
-
-
-#checkBoxedge{
+/*#checkBoxedge{
 -fx-background-color: white;
 -fx-border-color:grey;
 -fx-border-radius:3px;
 
 }
+
 
 
 

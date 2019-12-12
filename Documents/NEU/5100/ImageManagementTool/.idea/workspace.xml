@@ -95,6 +95,7 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/view" />
+      <recent name="$PROJECT_DIR$/src/Main" />
       <recent name="$PROJECT_DIR$/src/controller" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/sample" />
@@ -161,6 +162,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <module name="ImageManagementTool" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -201,6 +216,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +233,7 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1575574563701" duration="27483000" />
       <workItem from="1575748413018" duration="1385000" />
-      <workItem from="1576178310199" duration="485000" />
+      <workItem from="1576178310199" duration="1865000" />
     </task>
     <servers />
   </component>
